@@ -1,4 +1,4 @@
-### FocalResume
+# FocalResume
 FocalResume is HTML Template coded from [Focal Resume PSD](https://365psd.com/psd/focal-resume-psd-theme-54071) file.
 
 ## Build with
