@@ -1,0 +1,230 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #919191;
+}
+/*---Heading style---*/
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #566366;
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 16px;
+}
+/*---Top Jumbotron---*/
+header .jumbotron {
+    background-image: url(../img/jumbotron-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 0;
+}
+header .jumbotron h1 {
+    color: #FFF;
+    font-size: 50px;
+    line-height: 100px;
+}
+header .jumbotron h1 span {
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+header .jumbotron .btn-learnmore {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 0;
+}
+header .jumbotron .btn-learnmore:hover {
+    background-color: #2ecc71;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+/*---Navbar---*/
+header .navbar {
+    text-transform: uppercase;
+    background-color: #252e30;
+    border: none;
+    border-radius: 0;
+}
+.navbar-nav a {
+    color: #FFFFFF !important;
+}
+.navbar-nav > li > a:hover {
+    color: #2ecc71 !important;
+}
+.logo {
+    background-image: url(../img/logo.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo span {
+    color: #2ecc71;
+}
+/*---Intro section---*/
+#intro .container {
+    padding: 10px 40px 30px;
+}
+/*---About me section---*/
+#about-me .right {
+    padding: 40px 60px;
+}
+#about-me .right .f-icon {
+    color: #2ecc71;
+    font-size: 30px;
+    display: block;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+#about-me, #resume, #testimonial {
+    background-color: #F2F2F1;
+}
+/*---My skills section---*/
+#my-skills .container {
+    padding: 40px 70px;
+}
+#my-skills .progress {
+    border-radius: 0;
+}
+#my-skills .progress-bar {
+    background-color: #2ecc71;
+    border-radius: 0;
+}
+/*---Resume, my education, work experience section---*/
+#resume .container, #testimonial .container {
+    padding: 40px 60px;
+}
+#my-education .container {
+    padding: 40px 60px 20px;
+}
+#work-experience .container {
+    padding: 0 60px 40px;
+}
+#my-education h3, #work-experience h3 {
+    margin-top: 60px;
+}
+/*---Contact me section---*/
+#contact-me {
+    background-color: #252e30;
+    color: #919191;
+}
+#contact-me .container {
+    padding: 40px;
+}
+#contact-me a {
+    color: #919191;
+    text-decoration: none;
+}
+#contact-me a:hover {
+    text-decoration: underline;
+}
+#contact-me h2, #contact-me span, #contact-me label {
+    color: #ffffff;
+}
+#contact-me label {
+    font-weight: 400;
+    font-size: 12px;
+}
+#contact-me .form-control {
+    color: #ccc;
+    background-color: #4b5456;
+    border: none;
+    border-radius: 0;
+}
+/*---Footer---*/
+footer {
+    padding: 25px 0 15px;
+    background-color: #191f21;
+}
+footer a.twitter, footer a.facebook, footer a.pinterest, footer a.googleplus, footer a.dribbble, footer a.linkedin {
+    margin: 2px;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+footer a.twitter {
+    background-image: url(../img/twitter.png);
+}
+footer a.twitter:hover {
+    background-image: url(../img/twitter-hover.png);
+}
+footer a.facebook {
+    background-image: url(../img/facebook.png);
+}
+footer a.facebook:hover {
+    background-image: url(../img/facebook-hover.png);
+}
+footer a.pinterest {
+    background-image: url(../img/pinterest.png);
+}
+footer a.pinterest:hover {
+    background-image: url(../img/pinterest-hover.png);
+}
+footer a.googleplus {
+    background-image: url(../img/googleplus.png);
+}
+footer a.googleplus:hover {
+    background-image: url(../img/googleplus-hover.png);
+}
+footer a.dribbble {
+    background-image: url(../img/dribbble.png);
+}
+footer a.dribbble:hover {
+    background-image: url(../img/dribbble-hover.png);
+}
+footer a.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+footer a.linkedin:hover {
+    background-image: url(../img/linkedin-hover.png);
+}
+/*---Button style---*/
+.btn-green {
+    color: #2ecc71;
+    text-transform: uppercase;
+    border: 1px solid #2ecc71;
+    border-radius: 0;
+}
+.btn-green:hover {
+    background-color: #2ecc71;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+}
+.btn-black {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.btn-black:hover {
+    color: #2ecc71;
+    background-color: #363636;
+}
+.blk-green {
+    color: #ffffff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 0;
+}
+.blk-green:hover {
+    color: #Ffffff;
+}
+hr {
+    border-color: #cccccc;
+}
